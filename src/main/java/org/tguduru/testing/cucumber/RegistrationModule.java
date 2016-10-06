@@ -10,7 +10,7 @@ import com.google.inject.Stage;
 
 /**
  * @author Guduru, Thirupathi Reddy
- * @modified 10/4/16
+ * @since 10/4/16
  */
 public class RegistrationModule extends AbstractModule {
     protected void configure() {

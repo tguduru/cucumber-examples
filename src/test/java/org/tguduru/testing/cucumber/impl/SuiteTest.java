@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 /**
  * @author Guduru, Thirupathi Reddy
- * @modified 10/4/16
+ * @since 10/4/16
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "json:target/cucumber.json"})

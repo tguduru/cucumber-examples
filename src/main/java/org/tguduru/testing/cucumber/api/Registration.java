@@ -4,7 +4,7 @@ package org.tguduru.testing.cucumber.api;
  * API for registering a @{@link User}
  * 
  * @author Guduru, Thirupathi Reddy
- * @modified 10/4/16
+ * @since 10/4/16
  */
 public interface Registration {
     void save(User user);

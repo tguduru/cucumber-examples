@@ -5,7 +5,7 @@ import org.tguduru.testing.cucumber.api.User;
 
 /**
  * @author Guduru, Thirupathi Reddy
- * @modified 10/4/16
+ * @since 10/4/16
  */
 public class RegistrationImpl implements Registration {
     public void save(final User user) {

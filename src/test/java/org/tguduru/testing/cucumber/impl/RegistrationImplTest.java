@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 
 /**
  * @author Guduru, Thirupathi Reddy
- * @modified 10/4/16
+ * @since 10/4/16
  */
 public class RegistrationImplTest {
 
