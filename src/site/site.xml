@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project name="Maven" xmlns="http://maven.apache.org/DECORATION/1.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.5</version>
+    </skin>
+
+    <body>
+        <links>
+            <item name="Blog" href="http://tguduru.github.io"/>
+        </links>
+
+        <menu name="Tests Reports">
+            <item name="Cucumber" href="/cucumber/overview-features.html"/>
+            <item name="JUnit Tests" href="/surefire-report.html"/>
+        </menu>
+
+        <menu ref="reports"/>
+    </body>
+    <custom>
+        <fluidoSkin>
+            <topBarEnabled>true</topBarEnabled>
+            <topBarIcon>
+                <name>Cucumber Examples</name>
+                <href>/index.html</href>
+            </topBarIcon>
+            <sideBarEnabled>true</sideBarEnabled>
+            <leftColumnClass>span3</leftColumnClass>
+            <bodyColumnClass>span9</bodyColumnClass>
+            <breadcrumbDivider>»</breadcrumbDivider>
+            <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+            <copyrightClass>pull-right</copyrightClass>
+        </fluidoSkin>
+    </custom>
+</project>

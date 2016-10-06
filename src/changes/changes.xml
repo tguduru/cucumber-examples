@@ -1,0 +1,11 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
+    <body>
+        <release version="0.1-SNAPSHOT" date="${build.timestamp}" description="Initial Release">
+            <action dev="tguduru" type="add">
+                Basic example of cucumber testing.
+            </action>
+        </release>
+    </body>
+</document>
